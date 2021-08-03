@@ -1,0 +1,64 @@
+/* ========= INFORMATION ============================
+	- document:  WP Coder!
+	- author:    Dmytro Lobov 
+	- url:       https://wow-estore.com/
+==================================================== */
+h1 {
+    color: red;
+}
+label {
+    color:white;
+}
+
+.open-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: static;
+  bottom: 10px;
+  right: 15px;
+  width: 250px;
+	box-shadow: 1px 2px 1px red;
+	border-radius: 3px;
+}
+
+/* hidden : display none */
+.form-popup {
+  display:none;
+  position:static;
+  bottom: 0;
+  right: 14px;
+ 
+
+}
+
+.form-container {
+    
+  max-width: 50vw;
+  padding: 10px; 
+  background-color: black;
+  
+}
+.form-container input[type=text] {
+    width: auto;
+    padding: 5px;
+	   margin: 5px 0 5px 0;
+    border: none;
+    background: white;
+  }
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  width: auto;
+  margin-bottom:10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .{
+        width:50vw;
+        
+     }
+   }

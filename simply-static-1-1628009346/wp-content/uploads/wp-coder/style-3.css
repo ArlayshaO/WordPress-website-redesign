@@ -1,0 +1,22 @@
+/* ========= INFORMATION ============================
+	- document:  WP Coder!
+	- author:    Dmytro Lobov 
+	- url:       https://wow-estore.com/
+==================================================== */
+h1 {
+    font-weight: bold;
+	text-align: center;
+    }
+fieldset {
+    border: black;
+}
+
+body {
+	font-size: 16px;
+	color: black;
+	text-align: center;
+}
+
+.volfor {
+	padding: 10px 250px;
+}
